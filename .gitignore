@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data and large artefacts
+data/
+datasets/
+*.pth
+*.pt
+*.npy
+*.npz
+*.h5
+
+# Per-run output directories
+phase3_results_*/
+results/
+logs_*/
+runs/
+
+# IDE / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local experiment scratch
+scratch/
+tmp/
